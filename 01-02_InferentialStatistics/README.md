@@ -1,5 +1,5 @@
 ### Inferential Statistics
-2. Inferential Statistics
+1.2. Inferential Statistics
     1. Basics of Probability
         1. Introduction: Inferential Statistics
             - Process of “inferring” insights from sample data is called “Inferential Statistics”.
