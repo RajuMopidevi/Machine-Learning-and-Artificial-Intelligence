@@ -34,7 +34,9 @@
                    |Asking 200 randomly selected people if they are older than 21 or not |	Asking 200 randomly selected people how old they are |
                    | Drawing 4 red balls from a bag, putting each ball back after drawing it| Drawing 4 red balls from a bag, not putting each ball back after drawing it |
         3. Cumulative Probability
-        4. Summary
+            - **cumulative probability of X**, denoted by F(x), is defined as **the probability of the variable being less than or equal to x**.
+            - $$F(x) = P(X\leqx)$$
+        5. Summary
     3. Continuous Probability Distributions
         1. Introduction: Continuous Probability Distributions
         2. Probability Density Functions - I
