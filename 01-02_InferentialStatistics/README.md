@@ -55,9 +55,13 @@
             - standardised random variable   $$Z = \frac{x - \mu }{ \sigma }$$
             - cumulative probability    
                   $$F(Z) =  \frac{1}{\sqrt{2 \pi}} \int_{-\infty}^Z \mathrm{e}^{\frac{-t^2}{2}}\mathrm{d}t$$
+                  Excel formulae= NORM.S.DIST(z, TRUE)
     4. Central Limit Theorem
-        1. Introduction: Central Limit Theorem
-        2. Samples
+        1. Samples
+             |Population / Sample | Term | Notation | Formulae |
+             |--------| ------| ---------| -------|
+             |Population ( $$X_1 , X_2 , X_3 , ......., X_N$$) | Population Size | N | Number of items / Elements in the population |
+             |Population ( $$X_1 , X_2 , X_3 , ......., X_N$$) | \mu | \frac{\sum_{i=1}^{N} X_i }{N}|
         3. Sampling Distributions
         4. Properties of Sampling Distributions
         5. Central Limit Theorem
