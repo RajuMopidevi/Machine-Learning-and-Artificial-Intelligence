@@ -27,6 +27,7 @@
         2. Binomial Distribution
             - The formula for finding binomial probability is given by 
                 - $$P(X=r) = {}^n C_r (p)^r (1-p)^{n-r} $$ Where n is no. of trials, p is probability of success and r is no. of successes after n trials.
+                - Few examples to understand binomial distribution
                    | Binomial Distribution Applicable |	Binomial Distribution Not Applicable |
                    |----------------------------------|----------------------------------------|
                    |Tossing a coin 20 times to see how many tails occur	| Tossing a coin until a heads occurs |
