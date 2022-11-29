@@ -50,8 +50,16 @@
             - **Filter columns**: Pick columns relevant to the analysis
             - **Aggregate data**: Group by required keys, aggregate the rest
     3. Univariate Analysis
-        1. Introduction
-        2. Data Description
+        1. Data Description
+            - types of variables:
+                * Categorical variables
+                    + **Unordered**: Unordered ones do not have the notion of high-low, more-less etc. Example:
+                        * Type of loan taken by a person = home, personal, auto etc.
+                        * Organisation of a person = Sales, marketing, HR etc.
+                    + **Ordered**: Ordered ones have some kind of ordering. Some examples are
+                        * Salary = High-Medium-low
+                        * Month = Jan-Feb-Mar etc.
+                * Quantitative / numeric variables               
         3. Unordered Categorical Variables - Univariate Analysis
         4. Ordered Categorical Variables - Univariate Analysis
         5. Quantitative Variables - Univariate Analysis
