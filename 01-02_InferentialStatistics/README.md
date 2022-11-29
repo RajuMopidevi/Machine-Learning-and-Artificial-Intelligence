@@ -40,14 +40,21 @@
         3. Cumulative Probability
             - **cumulative probability of X**, denoted by F(x), is defined as **the probability of the variable being less than or equal to x**.
             - $$F(x) = P(X{\leq}x)$$
-        5. Summary
     3. Continuous Probability Distributions
-        1. Introduction: Continuous Probability Distributions
-        2. Probability Density Functions - I
-        3. Probability Density Functions - II
-        4. Normal Distribution
-        5. Standard Normal Distribution
-        6. Summary
+        1. Probability Density Functions - I
+            - **CDF**, or a **cumulative distribution function**, is a distribution which plots the cumulative probability of X against X.
+            - **PDF**, or **Probability Density Function**, however, is a function in which the area under the curve, gives you the cumulative probability
+            - PDFs are more commonly used in real life. The reason is that it is much easier to see patterns in PDFs as compared to CDFs
+            - _The PDF clearly shows uniformity_, as the probability density’s value remains constant for all possible values. However, the _CDF does not show any trends_ that help you identify quickly that the variable is uniformly distributed
+        2. Normal Distribution
+            - All data that is normally distributed follows the 1-2-3 rule. This rule states that there is a -
+                * 68% probability of the variable lying within 1 standard deviation of the mean
+                * 95% probability of the variable lying within 2 standard deviations of the mean
+                * 99.7% probability of the variable lying within 3 standard deviations of the mean
+        3. Standard Normal Distribution
+            - standardised random variable 
+                $$ Z = \frac{x - \mu }{ \sigma }$$
+            - cumulative probability
     4. Central Limit Theorem
         1. Introduction: Central Limit Theorem
         2. Samples
