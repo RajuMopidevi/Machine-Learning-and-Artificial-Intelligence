@@ -10,7 +10,7 @@
                 1. Find all the possible combinations
                 2. Find the probability of each combination
                 3. Use the probabilities to estimate the profit/loss per player
-            - Probability = \frac{Favourable Outcomes}{Total Outcomes}
+            - Probability = $\frac{Favourable Outcomes}{Total Outcomes}$
         4. Probability Distributions - II
         5. Expected Value - I
         6. Expected Value - II
