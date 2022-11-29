@@ -1,4 +1,4 @@
-    2. Inferential Statistics
+    #2. Inferential Statistics
         1. Basics of Probability
             1. Introduction: Inferential Statistics
             2. Introduction: Basics of Probability
