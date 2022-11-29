@@ -91,17 +91,36 @@
         5. Comparison of Other Metrics
             - 25th percentile, the median and the 75th percentile
     5. Bivariate Analysis
-        1. Introduction
-        2. Bivariate Analysis on Continuous Variables
+        1. Bivariate Analysis on Continuous Variables
+            - correlation is a number between -1 and 1 which quantifies the extent to which two variables ‘correlate’ with each other.
+                * If one increases as the other increases, the correlation is positive
+                * If one decreases as the other increases, the correlation is negative
+                * If one stays constant as the other varies, the correlation is zero
         3. Business Problems Involving Correlation
-        4. Bivariate Analysis on Categorical variables
-        5. Summary
+            - The correlated variables are grouped by similarities, and correlation can also be calculated for ‘groups of variables’. This is called ‘clustering’
+        5. Bivariate Analysis on Categorical variables
+            * There are two fundamental aspects of analysing categorical variables:
+                1. To see the distribution of two categorical variables.
+                2. To see the distribution of two categorical variables with one continuous variable
     6. Derived Metrics
-        1. Introduction
-        2. What are Derived Metrics ?
-        3. Types of Derived Metrics : Type Driven Metrics
+        1. What are Derived Metrics ?
+            * You often need to create new variables using the existing ones to get meaningful insights
+            * there are three different types of derived metrics:
+                1. Type-driven metrics
+                2. Business-driven metrics
+                3. Data-driven metrics
+        2. Types of Derived Metrics: Type Driven Metrics
+            - **Nominal variables**: Categorical variables, where the categories differ only by their names; there is no order among categories, e.g. colour (red, blue, green), gender (male, female), department (HR, analytics, sales)
+            - **Ordinal variables**: Categories follow a certain order, but the mathematical difference between categories is not meaningful, e.g. education level (primary school, high school, college), height (high, medium, low), performance (bad, good, excellent), etc.
+                - Ordinal variables are nominal as well
+            - **Interval variables**: Categories follow a certain order, and the mathematical difference between categories is meaningful but division or multiplication is not, e.g. temperature in degrees celsius ( the difference between 40 and 30 degrees C is meaningful, but 30 degrees x 40 degrees is not), dates (the difference between two dates is the number of days between them, but 25th May / 5th June is meaningless), etc.
+                -  Interval variables are both nominal and ordinal
+            - **Ratio variables**: Apart from the mathematical difference, the ratio (division/multiplication) is possible, e.g. sales in dollars ($100 is twice $50), marks of students (50 is half of 100), etc.
+                - Ratio variables are nominal, ordinal and interval type
         4. Types of Derived Metrics: Business Driven Metrics
+            - Deriving metrics from the business perspective is not an easy task. It requires a decent domain experience. Without understanding the domain correctly, deriving insights becomes difficult and prone to errors. 
         5. Types of Derived Metrics: Data Driven Metrics
-        6. Summary
+            - data-driven metrics can be created based on the variables present in the existing data set. For example, if you have two variables in your data set such as "weight" and "height" which shows a high correlation. So, instead of analysing "weight" and "height" variables separately, you can think of deriving a new metric "Body Mass Index (BMI)"
+        
         
         
