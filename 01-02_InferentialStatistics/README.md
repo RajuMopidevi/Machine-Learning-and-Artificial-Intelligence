@@ -63,6 +63,9 @@
              |Population( $$X_1, X_2, X_3, ..., X_N$$) | Population Size | N | Number of items / Elements in the population |
              |Population( $$X_1, X_2, X_3, ..., X_N$$) | Population Mean | $$\mu$$ | $$\frac{\displaystyle\sum_{i=1}^{N} X_i}{N}$$ |
              |Population( $$X_1, X_2, X_3, ..., X_N$$) | Population Variance | $$\sigma^{2}$$ | $$\frac{\displaystyle\sum_{i=1}^{N} (X_i - \mu)^2}{N}$$ |
+             |Sample( $$X_1, X_2, X_3, ..., X_N$$) | Sample Size | N | Number of items / Elements in the Sample |
+             |Sample( $$X_1, X_2, X_3, ..., X_N$$) | Sample Mean | $$\mu$$ | $$\frac{\displaystyle\sum_{i=1}^{N} X_i}{n}$$ |
+             |Sample( $$X_1, X_2, X_3, ..., X_N$$) | Sample Variance | $$\sigma^{2}$$ | $$\frac{\displaystyle\sum_{i=1}^{N} (X_i - \overline{X})^2}{n-1}$$ |
         3. Sampling Distributions
         4. Properties of Sampling Distributions
         5. Central Limit Theorem
