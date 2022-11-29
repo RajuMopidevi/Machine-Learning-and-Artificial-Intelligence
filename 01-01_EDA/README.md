@@ -78,12 +78,18 @@
             - **Distribution plots** reveal interesting insights about the data. You can observe various visible patterns in the plots and try to understand how they came to be.
             - **Summary metrics** are used to obtain a quantitative summary of the data. Not all metrics can be used everywhere. Thus, it is important to understand the data and then choose what metric to use to summarise the data.
     4. Segmented Univariate
-        1. Introduction
-        2. Introduction to Segmented Univariate Analysis
-        3. Basis of Segmentation
-        4. Quick way of Segmentation
-        5. Comparison of Averages
-        6. Comparison of Other Metrics
+        1. Basis of Segmentation
+            - The entire segmentation process can be divided into four parts:
+                1. Take raw data
+                2. Group by dimensions
+                3. Summarise using a relevant metric such as mean, median, etc.
+                4. Compare the aggregated metric across groups/categories
+        3. Quick way of Segmentation 
+            - It looks very repetitive task to perform the same analysis on the large bunch of variables. One way of solving this problem is to make a table with the categorical variables on one axis and the numeric variables (or measures/facts) on the other
+        4. Comparison of Averages
+            - "Don’t blindly believe in the averages of the buckets — you need to observe the distribution of each bucket closely and ask yourself if the difference in means is significant enough to draw a conclusion. If the difference in means is small, you may not be able to draw inferences. In such cases, a technique called hypothesis testing is used to ascertain whether the difference in means is significant or due to randomness.“ Don’t worry if you do not get the concept of hypothesis correctly, It will be dealt separately in hypothesis module."
+        5. Comparison of Other Metrics
+            - 25th percentile, the median and the 75th percentile
     5. Bivariate Analysis
         1. Introduction
         2. Bivariate Analysis on Continuous Variables
