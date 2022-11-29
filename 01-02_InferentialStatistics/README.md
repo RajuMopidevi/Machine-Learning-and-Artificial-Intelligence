@@ -28,11 +28,11 @@
             - The formula for finding binomial probability is given by 
                 - $$P(X=r) = {}^n C_r (p)^r (1-p)^{n-r} $$
                 - Where n is no. of trials, p is probability of success and r is no. of successes after n trials.
-            | Binomial Distribution Applicable |	Binomial Distribution Not Applicable |
-            |----------------------------------|----------------------------------------|
-            |Tossing a coin 20 times to see how many tails occur	| Tossing a coin until a heads occurs |
-            |Asking 200 randomly selected people if they are older than 21 or not |	Asking 200 randomly selected people how old they are |
-            | Drawing 4 red balls from a bag, putting each ball back after drawing it| Drawing 4 red balls from a bag, not putting each ball back after drawing it |
+| Binomial Distribution Applicable |	Binomial Distribution Not Applicable |
+|----------------------------------|----------------------------------------|
+|Tossing a coin 20 times to see how many tails occur	| Tossing a coin until a heads occurs |
+|Asking 200 randomly selected people if they are older than 21 or not |	Asking 200 randomly selected people how old they are |
+| Drawing 4 red balls from a bag, putting each ball back after drawing it| Drawing 4 red balls from a bag, not putting each ball back after drawing it |
         3. Cumulative Probability
         4. Summary
     3. Continuous Probability Distributions
