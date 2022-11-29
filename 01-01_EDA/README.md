@@ -7,9 +7,12 @@
            - A large amount of data collected by the government or other public agencies is made public for the purposes of research. Such data sets do not require special permission for access and are therefore called public data.
            - private data is that which is sensitive to organisations and is thus not available in the public domain. Banking, telecom, retail, and media are some of the key private sectors that rely heavily on data to make decisions.
         3. Private Data
-        4. Public Data
-        5. Public Data Exercise
-        6. Summary
+            - While banks use data to make credit related decisions, telecoms use data to optimise plans for customers and predict customer churn. HR data analytics helps identify and predict employee behaviour.
+            - While retail data analytics helps drive decisions such as pricing and stocking, the media industry uses data extensively to target viewers better. Advertisers use data to identify best avenues for targeting customers, while journalists use data visualisation to aid information.
+        5. Public Data
+            - [Awesome Public Datasets on GitHub](https://github.com/caesar0301/awesome-public-datasets) contains a directory of sports data from tennis, cricket, football, basketball and other sports
+        7. Public Data Exercise
+        8. Summary
     2. Data Cleaning
         1. Introduction
         2. Fixing Rows and Columns
