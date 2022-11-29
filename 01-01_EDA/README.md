@@ -60,7 +60,10 @@
                         * Salary = High-Medium-low
                         * Month = Jan-Feb-Mar etc.
                 * Quantitative / numeric variables               
-        3. Unordered Categorical Variables - Univariate Analysis
+        3. Unordered Categorical Variables - Univariate Analysis 
+            * Plots are immensely helpful in identifying hidden patterns in the data 
+            * It is possible to extract meaningful insights from unordered categorical variables using rank-frequency plots
+            * Rank-frequency plots of unordered categorical variables, when plotted on a log-log scale, typically result in a power law distribution
         4. Ordered Categorical Variables - Univariate Analysis
         5. Quantitative Variables - Univariate Analysis
         6. Quantitative Variables - Summary Metrics
