@@ -53,7 +53,7 @@
                 * 99.7% probability of the variable lying within 3 standard deviations of the mean
         3. Standard Normal Distribution
             - standardised random variable   $$Z = \frac{x - \mu }{ \sigma }$$
-            - cumulative probability $$ F(Z) = \frac{1}{ \sqrt {2 \pi} }   $$
+            - cumulative probability $$ F(Z) = \frac{1}{ \sqrt {2 {\pi} } }   $$
     4. Central Limit Theorem
         1. Introduction: Central Limit Theorem
         2. Samples
