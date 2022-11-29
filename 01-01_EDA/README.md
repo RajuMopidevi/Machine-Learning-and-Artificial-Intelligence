@@ -11,11 +11,19 @@
             - While retail data analytics helps drive decisions such as pricing and stocking, the media industry uses data extensively to target viewers better. Advertisers use data to identify best avenues for targeting customers, while journalists use data visualisation to aid information.
         5. Public Data
             - [Awesome Public Datasets on GitHub](https://github.com/caesar0301/awesome-public-datasets) contains a directory of sports data from tennis, cricket, football, basketball and other sports
-        7. Public Data Exercise
-        8. Summary
     2. Data Cleaning
-        1. Introduction
-        2. Fixing Rows and Columns
+        1. Fixing Rows and Columns
+            - Checklist for Fixing Rows
+                * Delete summary rows: Total, Subtotal rows
+                * Delete incorrect rows: Header rows, Footer rows
+                * Delete extra rows: Column number, indicators, Blank rows, Page No.
+            - Checklist for Fixing Columns
+                * Merge columns for creating unique identifiers if needed: E.g. Merge State, City into Full address
+                * Split columns for more data: Split address to get State and City to analyse each separately
+                * Add column names: Add column names if missing
+                * Rename columns consistently: Abbreviations, encoded columns
+                * Delete columns: Delete unnecessary columns
+                * Align misaligned columns: Dataset may have shifted columns
         3. Missing Values
         4. Standardising Values
         5. Invalid Values
