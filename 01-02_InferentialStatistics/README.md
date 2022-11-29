@@ -1,13 +1,19 @@
+### Inferential Statistics
 2. Inferential Statistics
     1. Basics of Probability
         1. Introduction: Inferential Statistics
-        2. Introduction: Basics of Probability
-        3. Random Variables
-        4. Probability Distributions - I
-        5. Probability Distributions - II
-        6. Expected Value - I
-        7. Expected Value - II
-        8. Summary
+            - Process of “inferring” insights from sample data is called “Inferential Statistics”.
+        2. Random Variables
+            - The **random variable X** basically converts outcomes of experiments to something measurable
+        3. Probability Distributions - I
+            - The three-step process for this is:
+                1. Find all the possible combinations
+                2. Find the probability of each combination
+                3. Use the probabilities to estimate the profit/loss per player
+        4. Probability Distributions - II
+        5. Expected Value - I
+        6. Expected Value - II
+        7. Summary
     2. Discrete Probability Distributions
         1. Introduction: Discrete Probability Distributions
         2. Probability Without Experiment - I
