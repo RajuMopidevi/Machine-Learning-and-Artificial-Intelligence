@@ -21,10 +21,12 @@
             - $$E[X] = \sum_{i=1}^{i=n} x_i P(X=x_i)$$
             - If Expected Value comes out to be negative, we can say that the project is not worth investing in
     2. Discrete Probability Distributions
-        1. Introduction: Discrete Probability Distributions
-        2. Probability Without Experiment - I
-        3. Probability Without Experiment - II
-        4. Binomial Distribution
+        1. Probability Without Experiment
+            - Theoretical (calculated) values of probability are actually quite close to the experimental values.
+            - The small differences can be noticed if the experiments are low in number.
+        2. Binomial Distribution
+            - The formula for finding binomial probability is given by 
+                - $$P(X=r) = {}^n C_r$$
         5. Cumulative Probability
         6. Summary
     3. Continuous Probability Distributions
