@@ -26,7 +26,7 @@
             - The small differences can be noticed if the experiments are low in number.
         2. Binomial Distribution
             - The formula for finding binomial probability is given by 
-                - $$P(X=r) = {}^n C_r$$
+                - $$P(X=r) = {}^n C_r (p)^r (1-p)^n-r $$
         5. Cumulative Probability
         6. Summary
     3. Continuous Probability Distributions
