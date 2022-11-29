@@ -1,25 +1,20 @@
-# Machine Learning and Artificial Intelligence
-1. Statistics Essentials
-    1. Exploratory Data Analysis
-    2. Inferential Statistics
-    3. Hypothesis Testing
-2. Machine Learning 1
-    1. Linear Regression
-    2. Logistic Regression
-    3. Naive Bayes
     4. Model Selection
-3. Machine Learning 2
-    1. Advanced Regression
-    2. Support Vector Machines
-    3. Tree Models
-    4. Boosting
-    5. Model Selection - Practical Considerations
-    6. Unsupervised Learning: Clustering
-    7. Unsupervised Learning: Principal Component Analysis
-    8. Time Series Forecasting
-4. Deep Learning
-    1. Introduction to Neural Networks - Part 1
-    2. Introduction to Neural Networks - Part 2
-    3. Convolutional Neural Networks
-    4. Convolutional Neural Networks - Industry Applications
-    5. Recurrent Neural Networks
+        1. Principles of Model Selection
+            1. Introduction
+            2. Introduction to Model Selection
+            3. Model and Learning Algorithm
+            4. Simplicity, Complexity and Overfitting
+            5. Bias-Variance Tradeoff
+            6. Comprehension - Bias Variance Tradeoff
+            7. Regularization
+            8. Summary
+        2. Model Evaluation
+            1. Introduction
+            2. Regularization and Hyperparameters
+            3. Model Evaluation and Cross Validation
+            4. Model Evaluation: Python Demonstration - I
+            5. Model Evaluation: Python Demonstration - II
+            6. Cross-Validation: Motivation
+            7. Cross-Validation: Python Demonstration
+            8. Cross-Validation: Hyperparameter Tuning
+            9. Summary

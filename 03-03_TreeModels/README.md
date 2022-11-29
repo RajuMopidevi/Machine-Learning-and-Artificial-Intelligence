@@ -1,25 +1,35 @@
-# Machine Learning and Artificial Intelligence
-1. Statistics Essentials
-    1. Exploratory Data Analysis
-    2. Inferential Statistics
-    3. Hypothesis Testing
-2. Machine Learning 1
-    1. Linear Regression
-    2. Logistic Regression
-    3. Naive Bayes
-    4. Model Selection
-3. Machine Learning 2
-    1. Advanced Regression
-    2. Support Vector Machines
     3. Tree Models
-    4. Boosting
-    5. Model Selection - Practical Considerations
-    6. Unsupervised Learning: Clustering
-    7. Unsupervised Learning: Principal Component Analysis
-    8. Time Series Forecasting
-4. Deep Learning
-    1. Introduction to Neural Networks - Part 1
-    2. Introduction to Neural Networks - Part 2
-    3. Convolutional Neural Networks
-    4. Convolutional Neural Networks - Industry Applications
-    5. Recurrent Neural Networks
+        1. Introduction to Decision Trees
+            1. Introduction to Decision Trees
+            2. Interpreting a Decision Tree
+            3. Building Decision Trees
+            4. Comprehension - Decision Tree Classification in Python
+            5. Tree Models Over Linear Models
+            6. Summary
+        2. Algorithms for Decision Tree Construction
+            1. Introduction
+            2. Splitting and Homogeneity
+            3. Impurity Measures
+            4. Comprehension: The Gini Index
+            5. Feature Importance in Decision Trees
+            6. Summary
+        3. Hyperparameter Tuning in Decision Trees
+            1. Disadvantages of Decision Trees
+            2. Tree Truncation
+            3. Building Decision Trees in Python
+            4. Choosing Tree Hyperparameters in Python
+            5. Comprehension - Hyperparameters
+            6. Decision Tree Regression
+            7. Decision Tree Regression in Python
+            8. Summary
+        4. Ensembles and Random Forests
+            1. Ensembles
+            2. Comprehension - Ensembles
+            3. Some Popular Ensembles
+            4. Introduction to Random Forests
+            5. Comprehension - OOB(Out-of-Bag) Error
+            6. Feature Importance in Random Forests
+            7. Random Forests in Python
+            8. Random Forests Regression in Python
+            9. Telecom Churn Prediction
+            10. Summary

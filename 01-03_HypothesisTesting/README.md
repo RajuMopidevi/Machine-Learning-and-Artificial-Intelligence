@@ -1,25 +1,24 @@
-# Machine Learning and Artificial Intelligence
-1. Statistics Essentials
-    1. Exploratory Data Analysis
-    2. Inferential Statistics
     3. Hypothesis Testing
-2. Machine Learning 1
-    1. Linear Regression
-    2. Logistic Regression
-    3. Naive Bayes
-    4. Model Selection
-3. Machine Learning 2
-    1. Advanced Regression
-    2. Support Vector Machines
-    3. Tree Models
-    4. Boosting
-    5. Model Selection - Practical Considerations
-    6. Unsupervised Learning: Clustering
-    7. Unsupervised Learning: Principal Component Analysis
-    8. Time Series Forecasting
-4. Deep Learning
-    1. Introduction to Neural Networks - Part 1
-    2. Introduction to Neural Networks - Part 2
-    3. Convolutional Neural Networks
-    4. Convolutional Neural Networks - Industry Applications
-    5. Recurrent Neural Networks
+        1. Concepts of Hypothesis Testing - I
+            1. Introduction
+            2. Understanding Hypothesis Testing
+            3. Null and Alternate Hypotheses
+            4. Making a Decision
+            5. Critical Value Method
+            6. Critical Value Method - Examples
+            7. Summary
+        2. Concepts of Hypothesis Testing - II
+            1. Introduction
+            2. P-value Method
+            3. P-value Method - Examples
+            4. Types of Errors
+            5. Summary
+        3. Industry Demonstration of Hypothesis Testing
+            1. Introduction
+            2. T Distribution
+            3. Two-Sample Mean Test
+            4. Two-Sample Proportion Test
+            5. A/B Testing Demonstration
+            6. Hypothesis testing in Python
+            7. Industry Relevance
+            8. Summary

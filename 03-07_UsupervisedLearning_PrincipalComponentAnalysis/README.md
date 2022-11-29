@@ -1,25 +1,33 @@
-# Machine Learning and Artificial Intelligence
-1. Statistics Essentials
-    1. Exploratory Data Analysis
-    2. Inferential Statistics
-    3. Hypothesis Testing
-2. Machine Learning 1
-    1. Linear Regression
-    2. Logistic Regression
-    3. Naive Bayes
-    4. Model Selection
-3. Machine Learning 2
-    1. Advanced Regression
-    2. Support Vector Machines
-    3. Tree Models
-    4. Boosting
-    5. Model Selection - Practical Considerations
-    6. Unsupervised Learning: Clustering
     7. Unsupervised Learning: Principal Component Analysis
-    8. Time Series Forecasting
-4. Deep Learning
-    1. Introduction to Neural Networks - Part 1
-    2. Introduction to Neural Networks - Part 2
-    3. Convolutional Neural Networks
-    4. Convolutional Neural Networks - Industry Applications
-    5. Recurrent Neural Networks
+        1. Introduction to PCA
+            1. Introduction
+            2. The Why of PCA
+            3. The What of PCA
+            4. Summary
+        2. Fundamentals of PCA: I
+            1. Introduction
+            2. Vectorial Representation of Data
+            3. Vector Operations
+            4. Matrix Multiplication
+            5. Basis
+            6. Change of Basis: Introduction
+            7. Change of Basis: Calculations
+            8. Change of Basis: Solve Examples
+            9. Comprehension: I
+            10. PCA and Change of Basis
+            11. Summary
+        3. Fundamentals of PCA: II
+            1. Introduction
+            2. Introduction to Variance
+            3. Variance as Information
+            4. Directions of Maximum Variance
+            5. The Workings of PCA
+            6. Summary
+        4. PCA in Python
+            1. Applying PCA using Python
+            2. Scree Plots
+            3. Dimensionality Reduction
+            4. Improving Model Performance - I
+            5. Improving Model Performance - II
+            6. Practical Considerations and Alternatives
+            7. Summary

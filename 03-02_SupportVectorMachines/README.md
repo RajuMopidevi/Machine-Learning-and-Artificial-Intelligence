@@ -1,25 +1,26 @@
-# Machine Learning and Artificial Intelligence
-1. Statistics Essentials
-    1. Exploratory Data Analysis
-    2. Inferential Statistics
-    3. Hypothesis Testing
-2. Machine Learning 1
-    1. Linear Regression
-    2. Logistic Regression
-    3. Naive Bayes
-    4. Model Selection
-3. Machine Learning 2
-    1. Advanced Regression
     2. Support Vector Machines
-    3. Tree Models
-    4. Boosting
-    5. Model Selection - Practical Considerations
-    6. Unsupervised Learning: Clustering
-    7. Unsupervised Learning: Principal Component Analysis
-    8. Time Series Forecasting
-4. Deep Learning
-    1. Introduction to Neural Networks - Part 1
-    2. Introduction to Neural Networks - Part 2
-    3. Convolutional Neural Networks
-    4. Convolutional Neural Networks - Industry Applications
-    5. Recurrent Neural Networks
+        1. SVM - Maximal Margin Classifier
+            1. Introduction
+            2. Concept of Hyperplane in 2D
+            3. Concept of Hyperplane in 3D
+            4. Maximal Margin Classifier
+            5. Summary
+        2. SVM - Soft Margin Classifier
+            1. Introduction
+            2. The Soft Margin Classifier
+            3. The Slack Variable
+            4. Comprehension-1: Notion of Space Variables
+            5. Cost of Misclassification
+            6. SVM Python Lab - I
+            7. SVM Python Lab - II
+            8. Summary
+        3. Kernels
+            1. Introduction
+            2. Mapping Nonlinear Data to Linear Data
+            3. Feature Transformation
+            4. The Kernel Trick
+            5. Building Nonlinear Models in Python
+            6. Shiny App - Types of Kernels
+            7. Choosing a Kernel Function
+            8. Letter Recognition Using SVM
+            9. Summary

@@ -1,25 +1,24 @@
-# Machine Learning and Artificial Intelligence
-1. Statistics Essentials
-    1. Exploratory Data Analysis
-    2. Inferential Statistics
-    3. Hypothesis Testing
-2. Machine Learning 1
-    1. Linear Regression
-    2. Logistic Regression
-    3. Naive Bayes
-    4. Model Selection
-3. Machine Learning 2
     1. Advanced Regression
-    2. Support Vector Machines
-    3. Tree Models
-    4. Boosting
-    5. Model Selection - Practical Considerations
-    6. Unsupervised Learning: Clustering
-    7. Unsupervised Learning: Principal Component Analysis
-    8. Time Series Forecasting
-4. Deep Learning
-    1. Introduction to Neural Networks - Part 1
-    2. Introduction to Neural Networks - Part 2
-    3. Convolutional Neural Networks
-    4. Convolutional Neural Networks - Industry Applications
-    5. Recurrent Neural Networks
+        1. Building on Linear Regression
+            1. Linear Regression - Review
+            2. Estimating Coefficients in SLR
+            3. Matrix Representation for SLR
+            4. Estimating Coefficients in MLR
+            5. Assumptions of Linear Regression
+            6. Multiple Linear Regression in Python
+            7. Summary
+        2. Handling Nonlinear Data
+            1. Introduction
+            2. Identifying Nonlinearity in Data
+            3. Polynomial Regression
+            4. Data Transformation
+            5. Nonlinear Regression
+            6. Linear Regression Pitfalls
+            7. Summary
+        3. Regularization
+            1. Regularization Introduction
+            2. Ridge Regression
+            3. Ridge Regression - Python Implementation
+            4. Lasso Regression
+            5. Regularization - Python Demo
+            6. Summary
