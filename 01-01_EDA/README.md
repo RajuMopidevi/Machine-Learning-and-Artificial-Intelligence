@@ -64,10 +64,19 @@
             * Plots are immensely helpful in identifying hidden patterns in the data 
             * It is possible to extract meaningful insights from unordered categorical variables using rank-frequency plots
             * Rank-frequency plots of unordered categorical variables, when plotted on a log-log scale, typically result in a power law distribution
-        4. Ordered Categorical Variables - Univariate Analysis
+        4. Ordered Categorical Variables - Univariate Analysis 
+            - whenever you have a continuous or an ordered categorical variable, make sure you plot a histogram or a bar chart and observe any unexpected trends in it.
         5. Quantitative Variables - Univariate Analysis
-        6. Quantitative Variables - Summary Metrics
-        7. Summary
+            - Mean and median are single values that broadly give a representation of the entire data
+            - Median is almost always a better measure of ‘representativeness’
+        7. Quantitative Variables - Summary Metrics
+            - Quartiles are a better measure of the spread than the standard deviation. 
+            - A good way to visualise quartiles is to use a box plot. 
+            - The 25th percentile is represented by the bottom horizontal line of the box, the 75th is the top line of the box, and the median is the line between them.
+        9. Summary
+            - **Metadata description** describes the data in a structured way. You should make it a habit of creating a metadata description for whatever data set you are working on. Not only will it serve as a reference point for you, it will also help other people understand the data better and save time.
+            - **Distribution plots** reveal interesting insights about the data. You can observe various visible patterns in the plots and try to understand how they came to be.
+            - **Summary metrics** are used to obtain a quantitative summary of the data. Not all metrics can be used everywhere. Thus, it is important to understand the data and then choose what metric to use to summarise the data.
     4. Segmented Univariate
         1. Introduction
         2. Introduction to Segmented Univariate Analysis
