@@ -35,7 +35,7 @@
                    | Drawing 4 red balls from a bag, putting each ball back after drawing it| Drawing 4 red balls from a bag, not putting each ball back after drawing it |
         3. Cumulative Probability
             - **cumulative probability of X**, denoted by F(x), is defined as **the probability of the variable being less than or equal to x**.
-            - $$F(x) = P(X\leqx)$$
+            - $$F(x) = P(X{\leq}x)$$
         5. Summary
     3. Continuous Probability Distributions
         1. Introduction: Continuous Probability Distributions
