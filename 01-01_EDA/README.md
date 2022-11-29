@@ -2,10 +2,10 @@
 1. Exploratory Data Analysis
     1. Data Sourcing
         1. Introduction to EDA
-            EDA is arguably the most important and revelatory step in any kind of data analysis.
+           - EDA is arguably the most important and revelatory step in any kind of data analysis.
         2. Public and Private Data
-            A large amount of data collected by the government or other public agencies is made public for the purposes of research. Such data sets do not require special permission for access and are therefore called public data.
-            private data is that which is sensitive to organisations and is thus not available in the public domain. Banking, telecom, retail, and media are some of the key private sectors that rely heavily on data to make decisions.
+           - A large amount of data collected by the government or other public agencies is made public for the purposes of research. Such data sets do not require special permission for access and are therefore called public data.
+           - private data is that which is sensitive to organisations and is thus not available in the public domain. Banking, telecom, retail, and media are some of the key private sectors that rely heavily on data to make decisions.
         3. Private Data
         4. Public Data
         5. Public Data Exercise
