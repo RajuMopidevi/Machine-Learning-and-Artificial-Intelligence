@@ -19,6 +19,7 @@
             - The expected value (EV) is given by: $EV(X) = x_1 * P(X=x_1) + x_2 * P(X=x_2) + x_3 * P(X=x_3) + . . . . . + x_n * P(X=x_n) $
         6. Expected Value - II
             - $$E[X] = \sum_{x \in X}xP(x)$$
+            - $$E[X] = \sum_{i=1}^{i=n} x_i P(X=x_i)$$
             - If Expected Value comes out to be negative, we can say that the project is not worth investing in
         7. Summary
     2. Discrete Probability Distributions
