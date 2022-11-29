@@ -13,11 +13,14 @@
             - Probability = $\frac{Favourable Outcomes}{Total Outcomes}$
         4. Probability Distributions - II
             - A **probability distribution** is ANY form of representation that tells us the probability for all possible values of X
-        6. Expected Value - I
+        5. Expected Value - I
             - The **expected value** for a variable X is the value of X we would “expect” to get after performing the experiment once. It is also called **the expectation**, **average**, and **mean value**
-            - the expected value (EV) is given by: $EV(X) = x_1 * P(X=x_1) + x_2 * P(X=x_2) + x_3 * P(X=x_3) + . . . . . + x_n * P(X=x_n) $
-        8. Expected Value - II
-        9. Summary
+            - The **expected value** should be interpreted as the **average value** you get after the experiment has been conducted an **infinite number of times**.
+            - The expected value (EV) is given by: $EV(X) = x_1 * P(X=x_1) + x_2 * P(X=x_2) + x_3 * P(X=x_3) + . . . . . + x_n * P(X=x_n) $
+        6. Expected Value - II
+            - $$E[X] = \sum_{x \in X}xP(x)$$
+            - If Expected Value comes out to be negative, we can say that the project is not worth investing in
+        7. Summary
     2. Discrete Probability Distributions
         1. Introduction: Discrete Probability Distributions
         2. Probability Without Experiment - I
