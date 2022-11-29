@@ -54,7 +54,7 @@
         3. Standard Normal Distribution
             - standardised random variable   $$Z = \frac{x - \mu }{ \sigma }$$
             - cumulative probability    
-                 $$ F(Z) = \frac{1}{\sqrt{2 \pi}} $$
+                 $$ F(Z) =  \int_{-\infty}^Z \mathrm{e}^{\frac{-t^2}{2}}\,\mathrm{d}t$$
     4. Central Limit Theorem
         1. Introduction: Central Limit Theorem
         2. Samples
