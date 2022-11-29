@@ -1,4 +1,4 @@
-    1. Exploratory Data Analysis
+1. Exploratory Data Analysis
         1. Data Sourcing
             1. Introduction to EDA
             2. Introduction
