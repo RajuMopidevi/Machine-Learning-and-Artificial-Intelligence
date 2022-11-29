@@ -60,8 +60,8 @@
         1. Samples
              |Population / Sample | Term | Notation | Formulae |
              |--------| ------| ---------| -------|
-             |Population($$X_1 , X_2 , X_3 , ...., X_N$$) | Population Size | N | Number of items / Elements in the population |
-             |Population($$X_1 , X_2 , X_3 , ...., X_N$$) | Population Mean | $$\mu$$ | $$\frac{\sum_{i=1}^{N} X_i}{N}$$ |
+             |Population( $$X_1, X_2, X_3, ...., X_N$$) | Population Size | N | Number of items / Elements in the population |
+             |Population( $$X_1, X_2, X_3, ...., X_N$$) | Population Mean | $$\mu$$ | $$\frac{\displaystyle\sum_{i=1}^{N} X_i}{N}$$ |
         3. Sampling Distributions
         4. Properties of Sampling Distributions
         5. Central Limit Theorem
