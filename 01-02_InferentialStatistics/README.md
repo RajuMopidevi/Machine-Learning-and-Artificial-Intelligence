@@ -25,6 +25,10 @@
             - Theoretical (calculated) values of probability are actually quite close to the experimental values.
             - The small differences can be noticed if the experiments are low in number.
         2. Binomial Distribution
+            - The binomial distribution can be used if, for an experiment:
+                * The total number of trials is fixed
+                * Each trial is binary, i.e. has only two possible outcomes, success and failure
+                * The probability of success is the same for all the trials
             - The formula for finding binomial probability is given by 
                 - $$P(X=r) = {}^n C_r (p)^r (1-p)^{n-r} $$ Where n is no. of trials, p is probability of success and r is no. of successes after n trials.
                 - Few examples to understand binomial distribution
