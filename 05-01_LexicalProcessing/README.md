@@ -70,8 +70,42 @@
             - **The parentheses** :The quantifier will look for repetition of the group of characters rather than just looking for repetitions of the preceding character. This concept is called grouping in regular expression jargon
             - **The pipe operator**: It’s notated by ‘|’. The pipe operator is used as an OR operator. You need to use it inside the parentheses
             - **The escape sequence** : It is denoted by a backslash ‘\’, is used to escape the special meaning of the special characters
-        10. Regular Expressions: Anchors and Wildcard
-        11. Regular Expressions: Characters Sets
+            - **regex flags** :  A flag has a special meaning. For example, if you want your regex to ignore the case of the text then you can pass the 're.I' flag. Similarly, you can have have a flag with the syntax re.M that enables you to search in multiple lines
+            - `re.compile()` function: This function stores the regular expression pattern in the cache memory and is said to result in a little faster searches.
+            - ```python
+                # without re.compile() function
+                result = re.search("a+", "abc")
+
+                # using the re.compile() function
+                pattern = re.compile("a+")
+                result = pattern.search("abc")
+                ```
+        8. Regular Expressions: Anchors and Wildcard
+            - Anchors are used to specify the start and end of the string.
+            - The ‘^’ specifies the start of the string. The character followed by the ‘^’ in the pattern should be the first character of the string in order for a string to match the pattern.
+            - The ‘$’ specifies the end of the string. The character that precedes the ‘$’ in the pattern should be the last character in the string in order for the string to match the pattern.
+            - **wildcard character**: acts as a placeholder and can match any character
+        9. Regular Expressions: Characters Sets
+            - Character sets provide lot more flexibility than just typing a wildcard or the literal characters. Character sets can be specified with or without a quantifier. 
+            - a quantifier loses its special meaning when it’s present inside the character set
+            - **complement operator**: the caret operator can be used to match every other character other than the one mentioned inside the character set. 
+            -   | Pattern  | Matches                                                                                    |
+                |----------|--------------------------------------------------------------------------------------------|
+                | [abc]    | Matches either an a, b or c character                                                      |
+                | [abcABC] | Matches either an a, A, b, B, c or C character                                             |
+                | [a-z]    | Matches any characters between a and z, including a and z                                  |
+                | [A-Z]    | Matches any characters between A and Z, including A and Z                                  |
+                | [a-zA-Z] | Matches any characters between a and z, including a and z ignoring cases of the characters |
+                | [0-9]    | Matches any character which is a number between 0 and 9                                    |
+                
+                | Pattern  | Equivalent to    |
+                |----------|------------------|
+                | \s       | [ \t\n\r\f\v]    |
+                | \S       | [^ \t\n\r\f\v]   |
+                | \d       | [0-9]            |
+                | \D       | [^0-9]           |
+                | \w       | [a-zA-Z0-9_]     |
+                | \W       | [^a-zA-Z0-9_]    |
         12. Greedy versus Non-greedy Search
         13. Commonly Used RE Functions
         14. Regular Expressions: Grouping
