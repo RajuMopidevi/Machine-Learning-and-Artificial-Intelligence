@@ -1,25 +1,37 @@
-# Machine Learning and Artificial Intelligence
-1. Statistics Essentials
-    1. Exploratory Data Analysis
-    2. Inferential Statistics
-    3. Hypothesis Testing
-2. Machine Learning 1
-    1. Linear Regression
-    2. Logistic Regression
-    3. Naive Bayes
-    4. Model Selection
-3. Machine Learning 2
-    1. Advanced Regression
-    2. Support Vector Machines
-    3. Tree Models
-    4. Boosting
-    5. Model Selection - Practical Considerations
-    6. Unsupervised Learning: Clustering
-    7. Unsupervised Learning: Principal Component Analysis
-    8. Time Series Forecasting
-4. Deep Learning
-    1. Introduction to Neural Networks - Part 1
-    2. Introduction to Neural Networks - Part 2
-    3. Convolutional Neural Networks
-    4. Convolutional Neural Networks - Industry Applications
-    5. Recurrent Neural Networks
+1. NLP Lexical Processing
+    1. Introduction to NLP
+        1. Introduction
+        2. NLP: Areas of Application
+        3. Understanding Text
+        4. Text Encoding
+        5. Regular expressions: Quantifiers - I
+        6. Regular expressions: Quantifiers - II
+        7. Comprehension: Regular Expressions
+        8. Regular Expressions: Anchors and Wildcard
+        9. Regular Expressions: Characters Sets
+        10. Greedy versus Non-greedy Search
+        11. Commonly Used RE Functions
+        12. Regular Expressions: Grouping
+        13. Regular Expressions: Use Cases
+        14. Summary
+    2. Basic Lexical Processing
+        1. Introduction
+        2. Word Frequencies and Stop Words
+        3. Tokenisation
+        4. Bag-of-Words Representation
+        5. Stemming and Lemmatization
+        6. Final Bag-of-Words Representation
+        7. TF-IDF Representation
+        8. Building a Spam Detector-I
+        9. Building a Spam Detector-II
+        10. Summary
+    3. Advanced Lexical Processing
+        1. Introduction
+        2. Canonicalisation
+        3. Phonetic Hashing
+        4. Edit Distance
+        5. Spell Corrector - I
+        6. Spell Corrector - II
+        7. Pointwise Mutual Information - I
+        8. Pointwise Mutual Information - II
+        9. Summary
