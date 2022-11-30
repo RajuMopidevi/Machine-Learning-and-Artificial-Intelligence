@@ -13,7 +13,19 @@
             8. Psychology and cognitive science
         3. Understanding Text
             * ![Flow](https://github.com/RajuMopidevi/Machine-Learning-and-Artificial-Intelligence/blob/main/05-01_LexicalProcessing/05-01_NLP_01.png?raw=true)
-            * Lexical Processing: 
+            * **Lexical Processing**: 
+                - convert the raw text --> words --> sentences or paragraphs
+                - In general, we can consider all plural words to be equivalent to the singular form.
+                - Lexical processing will treat the two sentences as equal if the “group of words” in both sentences are the same.
+            * **Syntactic Processing**:
+                - Instead of only looking at the words, we look at the syntactic structures, i.e., the grammar of the language
+                - Ex: Differentiating between the subject and the object of the sentence, i.e., identifying who is performing the action and who is the person affected by it
+                - A question answering system. Ex: Who is the Prime Minister of India?
+            * **Semantic Processing**: 
+                - Lexical and syntactic processing don't suffice when it comes to building advanced NLP applications such as language translation.
+                - inferring the word’s meaning to the collection of words that usually occur around it.
+                - Understand other semantic relations. Ex: King and Queen are related. Both of these words can be clubbed under the word “Monarch”
+            * Most of the applications, lexical and semantic processing simply form the “pre-processing” layer of the overall process.
         5. Text Encoding
         6. Regular expressions: Quantifiers - I
         7. Regular expressions: Quantifiers - II
@@ -46,20 +58,3 @@
         7. Pointwise Mutual Information - I
         8. Pointwise Mutual Information - II
         9. Summary
-
-```mermaid
-classDiagram
-Class01 <|-- AveryLongClass : Cool
-Class03 *-- Class04
-Class05 o-- Class06
-Class07 .. Class08
-Class09 --> C2 : Where am i?
-Class09 --* C3
-Class09 --|> Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-Class08 <--> C2: Cool label
-```
