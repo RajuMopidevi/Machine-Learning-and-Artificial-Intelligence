@@ -12,13 +12,13 @@
             7. E-Commerce
             8. Psychology and cognitive science
         3. Understanding Text
-               ```mermaid
-                graph TD;
+                 ```mermaid
+                  graph TD;
                     A-->B;
                     A-->C;
                     B-->D;
                     C-->D;
-                ```
+                  ```
         4. Text Encoding
         5. Regular expressions: Quantifiers - I
         6. Regular expressions: Quantifiers - II
