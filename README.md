@@ -23,3 +23,8 @@
     3. Convolutional Neural Networks
     4. Convolutional Neural Networks - Industry Applications
     5. Recurrent Neural Networks
+5. Natural language processing
+    1. NLP Lexical Processing
+    2. Semantic Processing I
+    3. Semantic Processing II
+    4. Syntactic Processing
