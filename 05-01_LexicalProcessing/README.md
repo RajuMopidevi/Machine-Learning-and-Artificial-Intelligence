@@ -26,7 +26,14 @@
                 - inferring the word’s meaning to the collection of words that usually occur around it.
                 - Understand other semantic relations. Ex: King and Queen are related. Both of these words can be clubbed under the word “Monarch”
             * Most of the applications, lexical and semantic processing simply form the “pre-processing” layer of the overall process.
-        5. Text Encoding
+        4. Text Encoding
+            - Computers could handle numbers directly and store them on registers (the smallest unit of memory on a computer). But they couldn’t store the non-numeric characters as is. The alphabets and special characters were to be converted to a numeric value first before they could be stored
+            - All the non-numeric characters were **encoded** to a number using a code
+            - The first encoding standard that came into existence was the **ASCII (American Standard Code for Information Interchange)** standard, in 1960.
+            - **Unicode standard** supports all the languages in the world - both modern and the older ones.
+            - Before even beginning with any text processing, you need to know what kind of encoding the text has and if required, modify it to another encoding format.
+            - Encoding: ![table](https://github.com/RajuMopidevi/Machine-Learning-and-Artificial-Intelligence/blob/main/05-01_LexicalProcessing/encoding.png?raw=true)
+            - The default encoding for strings in python is Unicode UTF-8.
         6. Regular expressions: Quantifiers - I
         7. Regular expressions: Quantifiers - II
         8. Comprehension: Regular Expressions
