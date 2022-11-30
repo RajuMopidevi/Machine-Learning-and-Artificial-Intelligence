@@ -51,3 +51,11 @@
         7. Pointwise Mutual Information - I
         8. Pointwise Mutual Information - II
         9. Summary
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
