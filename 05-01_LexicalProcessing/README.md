@@ -34,6 +34,15 @@
             - Before even beginning with any text processing, you need to know what kind of encoding the text has and if required, modify it to another encoding format.
             - Encoding: ![table](https://github.com/RajuMopidevi/Machine-Learning-and-Artificial-Intelligence/blob/main/05-01_LexicalProcessing/encoding.png?raw=true)
             - The default encoding for strings in python is Unicode UTF-8.
+            - ```python
+                # create a string
+                amount = u"₹50"
+                print('Default string: ', amount, '\n', 'Type of string', type(amount), '\n')
+
+                # encode to UTF-8 byte format
+                amount_encoded = amount.encode('utf-8')
+                print('Encoded to UTF-8: ', amount_encoded, '\n', 'Type of string', type(amount_encoded), '\n')
+                ```
         6. Regular expressions: Quantifiers - I
         7. Regular expressions: Quantifiers - II
         8. Comprehension: Regular Expressions
