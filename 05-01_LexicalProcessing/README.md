@@ -51,12 +51,25 @@
             - `re.search(pattern, string).start()` and `re.search(pattern, string).end()` will return the index of the starting and ending position of the match found.
             - Quantifiers allow you to mention and have control over how many times you want the character(s) in your pattern to occur.
             - four types of quantifiers:
-                1. The ‘?’ operator
-                2. The ‘*’ operator
-                3. The ‘+’ operator
-                4. The ‘{m, n}’ operator
+                1. **The ‘?’ operator** : The ‘?’ matches the preceding character zero or one time. It is generally used to mark the **optional presence** of a character.
+                2. **The ‘*’ operator** : The ‘*’ quantifier is used to mark the presence of the preceding character **zero or more times**.
+                3. **The ‘+’ operator** : The ‘+’ quantifier matches the preceding character one or more times.
+                4. **The ‘{m, n}’ operator** : This will match occurrences of the preceding character a fixed number of times
+             - The only difference between '+' and '*' is that the '+' needs a character to be present at least once, while the '*' does not
         6. Regular expressions: Quantifiers - II
-        9. Comprehension: Regular Expressions
+            + There are four variants of the quantifier :
+                - {m, n}: Matches the preceding character ‘m’ times to ‘n’ times.
+                - {m, }: Matches the preceding character ‘m’ times to infinite times, i.e. there is no upper limit to the occurrence of the preceding character.
+                - {, n}: Matches the preceding character from zero to ‘n’ times, i.e. the upper limit is fixed regarding the occurrence of the preceding character.
+                - {n}: Matches if the preceding character occurs exactly ‘n’ number of times.
+            + '?' is equivalent to zero or once, or {0, 1}
+            + '*' is equivalent to zero or more times, or {0, }
+            + '+' is equivalent to one or more times, or {1, }
+        7. Comprehension: Regular Expressions
+            - A whitespace comprises of a single space, multiple spaces, tab space or a newline character (also known as a vertical space)
+            - **The parentheses** :The quantifier will look for repetition of the group of characters rather than just looking for repetitions of the preceding character. This concept is called grouping in regular expression jargon
+            - **The pipe operator**: It’s notated by ‘|’. The pipe operator is used as an OR operator. You need to use it inside the parentheses
+            - **The escape sequence** : It is denoted by a backslash ‘\’, is used to escape the special meaning of the special characters
         10. Regular Expressions: Anchors and Wildcard
         11. Regular Expressions: Characters Sets
         12. Greedy versus Non-greedy Search
