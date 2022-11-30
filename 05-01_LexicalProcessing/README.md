@@ -12,7 +12,7 @@
             7. E-Commerce
             8. Psychology and cognitive science
         3. Understanding Text
-            * [Flow](https://github.com/RajuMopidevi/Machine-Learning-and-Artificial-Intelligence/blob/main/05-01_LexicalProcessing/05-01_NLP_01.png?raw=true)
+            * ![Flow](https://github.com/RajuMopidevi/Machine-Learning-and-Artificial-Intelligence/blob/main/05-01_LexicalProcessing/05-01_NLP_01.png?raw=true)
             * Lexical Processing: 
         5. Text Encoding
         6. Regular expressions: Quantifiers - I
