@@ -43,16 +43,27 @@
                 amount_encoded = amount.encode('utf-8')
                 print('Encoded to UTF-8: ', amount_encoded, '\n', 'Type of string', type(amount_encoded), '\n')
                 ```
-        6. Regular expressions: Quantifiers - I
-        7. Regular expressions: Quantifiers - II
-        8. Comprehension: Regular Expressions
-        9. Regular Expressions: Anchors and Wildcard
-        10. Regular Expressions: Characters Sets
-        11. Greedy versus Non-greedy Search
-        12. Commonly Used RE Functions
-        13. Regular Expressions: Grouping
-        14. Regular Expressions: Use Cases
-        15. Summary
+        5. Regular expressions: Quantifiers - I
+            - A regular expression is a set of characters, or a pattern, which is used to find substrings in a given string
+            - Regulars expressions are a language in itself since they have their own compilers
+            - Used for feature extraction from text, string replacement and other string manipulations
+            - The `re.search()` method returns a RegexObject if the pattern is found in the string, else it returns a None object
+            - `re.search(pattern, string).start()` and `re.search(pattern, string).end()` will return the index of the starting and ending position of the match found.
+            - Quantifiers allow you to mention and have control over how many times you want the character(s) in your pattern to occur.
+            - four types of quantifiers:
+                1. The ‘?’ operator
+                2. The ‘*’ operator
+                3. The ‘+’ operator
+                4. The ‘{m, n}’ operator
+        6. Regular expressions: Quantifiers - II
+        9. Comprehension: Regular Expressions
+        10. Regular Expressions: Anchors and Wildcard
+        11. Regular Expressions: Characters Sets
+        12. Greedy versus Non-greedy Search
+        13. Commonly Used RE Functions
+        14. Regular Expressions: Grouping
+        15. Regular Expressions: Use Cases
+        16. Summary
     2. Basic Lexical Processing
         1. Introduction
         2. Word Frequencies and Stop Words
