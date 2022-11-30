@@ -12,17 +12,19 @@
             7. E-Commerce
             8. Psychology and cognitive science
         3. Understanding Text
-        4. Text Encoding
-        5. Regular expressions: Quantifiers - I
-        6. Regular expressions: Quantifiers - II
-        7. Comprehension: Regular Expressions
-        8. Regular Expressions: Anchors and Wildcard
-        9. Regular Expressions: Characters Sets
-        10. Greedy versus Non-greedy Search
-        11. Commonly Used RE Functions
-        12. Regular Expressions: Grouping
-        13. Regular Expressions: Use Cases
-        14. Summary
+            * [Flow](https://github.com/RajuMopidevi/Machine-Learning-and-Artificial-Intelligence/blob/main/05-01_LexicalProcessing/05-01_NLP_01.png?raw=true)
+            * Lexical Processing: 
+        5. Text Encoding
+        6. Regular expressions: Quantifiers - I
+        7. Regular expressions: Quantifiers - II
+        8. Comprehension: Regular Expressions
+        9. Regular Expressions: Anchors and Wildcard
+        10. Regular Expressions: Characters Sets
+        11. Greedy versus Non-greedy Search
+        12. Commonly Used RE Functions
+        13. Regular Expressions: Grouping
+        14. Regular Expressions: Use Cases
+        15. Summary
     2. Basic Lexical Processing
         1. Introduction
         2. Word Frequencies and Stop Words
