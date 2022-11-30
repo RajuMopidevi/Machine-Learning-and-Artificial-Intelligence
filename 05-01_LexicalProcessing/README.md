@@ -106,8 +106,15 @@
                 | \D       | [^0-9]           |
                 | \w       | [a-zA-Z0-9_]     |
                 | \W       | [^a-zA-Z0-9_]    |
-        12. Greedy versus Non-greedy Search
-        13. Commonly Used RE Functions
+        10. Greedy versus Non-greedy Search
+            - **greedy approach**: By default, a regular expression is greedy in nature. the regex greedily tries to look for the longest pattern possible in the string
+            - **non-greedy approach**: also called the lazy approach, where the regex stops looking for the pattern once a particular condition is satisfied
+        11. Commonly Used RE Functions
+            - `match()` Determine if the RE matches at the beginning of the string
+            - `search()` Scan through a string, looking for any location where this RE matches
+            - `finall()` Find all the substrings where the RE matches, and return them as a list
+            - `finditer()` Find all substrings where RE matches and return them as asn iterator
+            - `sub()` Find all substrings where the RE matches and substitute them with the given string
         14. Regular Expressions: Grouping
         15. Regular Expressions: Use Cases
         16. Summary
