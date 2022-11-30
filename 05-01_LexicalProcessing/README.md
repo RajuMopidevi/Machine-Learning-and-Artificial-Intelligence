@@ -1,8 +1,24 @@
 1. NLP Lexical Processing
     1. Introduction to NLP
         1. Introduction
+            - Text analytics(NLP) plays a very vital role in today’s era because of the sheer volume of text data that users generate around the world on digital channels such as social media apps, e-commerce websites, blog posts, etc
         2. NLP: Areas of Application
+            1. Social Media Analytics
+            2. Banking and loan Processing
+            3. Insurance claim processing
+            4. Customer relationship processing
+            5. Security and counter-terrorism
+            6. Computational social science
+            7. E-Commerce
+            8. Psychology and cognitive science
         3. Understanding Text
+               ```mermaid
+                graph TD;
+                    A-->B;
+                    A-->C;
+                    B-->D;
+                    C-->D;
+                ```
         4. Text Encoding
         5. Regular expressions: Quantifiers - I
         6. Regular expressions: Quantifiers - II
