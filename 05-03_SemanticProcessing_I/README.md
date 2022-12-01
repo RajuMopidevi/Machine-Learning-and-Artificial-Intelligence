@@ -1,4 +1,4 @@
-2. Semantic Processing I
+3. Semantic Processing I
     1. Knowledge Graph
         1. Introduction to Semantic Processing
         2. Knowledge Graphs
