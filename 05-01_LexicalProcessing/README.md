@@ -34,6 +34,7 @@
             - Before even beginning with any text processing, you need to know what kind of encoding the text has and if required, modify it to another encoding format.
             - Encoding: ![table](https://github.com/RajuMopidevi/Machine-Learning-and-Artificial-Intelligence/blob/main/05-01_LexicalProcessing/encoding.png?raw=true)
             - The default encoding for strings in python is Unicode UTF-8.
+            - [Open in Google Colab](https://colab.research.google.com/github/RajuMopidevi/Machine-Learning-and-Artificial-Intelligence/blob/main/05-01_LexicalProcessing/05_01_NLP_01.ipynb)
             - ```python
                 # create a string
                 amount = u"₹50"
@@ -44,6 +45,7 @@
                 print('Encoded to UTF-8: ', amount_encoded, '\n', 'Type of string', type(amount_encoded), '\n')
                 ```
         5. Regular expressions: Quantifiers - I
+            - [Regular expression in google Colab](https://colab.research.google.com/github/RajuMopidevi/Machine-Learning-and-Artificial-Intelligence/blob/main/05-01_LexicalProcessing/Regular_Expressions_.ipynb)
             - A regular expression is a set of characters, or a pattern, which is used to find substrings in a given string
             - Regulars expressions are a language in itself since they have their own compilers
             - Used for feature extraction from text, string replacement and other string manipulations
@@ -128,6 +130,7 @@
                 * Extracting emails
                 * Extracting phone numbers, and other patterns.
                 * checking if a new password meets the minimum criteria or not
+             - [Bonus excercise](https://colab.research.google.com/github/RajuMopidevi/Machine-Learning-and-Artificial-Intelligence/blob/main/05-01_LexicalProcessing/Bonus%2Bexercise%2Bwith%2Bsolution.ipynb)
     2. Basic Lexical Processing
         1. Introduction
             - Corpus is just a name to refer to textual data in NLP jargon.
@@ -140,9 +143,14 @@
                 - Bag-of-words model
                 - TF-IDF model
         2. Word Frequencies and Stop Words
-            - stopwords are lesser relevant than other words
             - word frequency distribution :  visualising the word frequencies of a given text corpus.
-        4. Tokenisation
+            - **The Zipf's law** : (discovered by the linguist-statistician George Zipf) states that the frequency of a word is inversely proportional to the rank of the word, where rank 1 is given to the most frequent word, 2 to the second most frequent and so on. This is also called the **power law distribution**
+            - stopwords - these are the words having the highest frequencies (or lowest ranks) in the text, and are typically of limited 'importance'.
+            - stopwords are removed from the text for two reasons:
+                * They provide no useful information, especially in applications such as spam detector or search engine. Therefore, you’re going to remove stopwords from the spam dataset.
+                * Since the frequency of words is very high, removing stopwords results in a much smaller data as far as the size of data is concerned. Reduced size results in faster computation on text data. There’s also the advantage of less number of features to deal with if stopwords are removed.
+                * you’re not going to remove the rarely occurring words because they might provide useful information in spam detection
+        3. Tokenisation
         5. Bag-of-Words Representation
         6. Stemming and Lemmatization
         7. Final Bag-of-Words Representation
