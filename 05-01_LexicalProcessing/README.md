@@ -149,7 +149,7 @@
             - stopwords are removed from the text for two reasons:
                 * They provide no useful information, especially in applications such as spam detector or search engine. Therefore, you’re going to remove stopwords from the spam dataset.
                 * Since the frequency of words is very high, removing stopwords results in a much smaller data as far as the size of data is concerned. Reduced size results in faster computation on text data. There’s also the advantage of less number of features to deal with if stopwords are removed.
-                * you’re not going to remove the rarely occurring words because they might provide useful information in spam detection
+                * you’re not going to remove the rarely occurring words because they might provide useful information in spam detection.
         3. Tokenisation
         5. Bag-of-Words Representation
         6. Stemming and Lemmatization
