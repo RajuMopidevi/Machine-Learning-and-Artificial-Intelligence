@@ -128,18 +128,26 @@
                 * Extracting emails
                 * Extracting phone numbers, and other patterns.
                 * checking if a new password meets the minimum criteria or not
-        14. Summary
     2. Basic Lexical Processing
         1. Introduction
+            - Corpus is just a name to refer to textual data in NLP jargon.
+            - How to preprocess text using techniques such as
+                - Tokenisation
+                - Stop words removal
+                - Stemming
+                - Lemmatization
+            - How to build a spam detector using one of the following models:
+                - Bag-of-words model
+                - TF-IDF model
         2. Word Frequencies and Stop Words
-        3. Tokenisation
-        4. Bag-of-Words Representation
-        5. Stemming and Lemmatization
-        6. Final Bag-of-Words Representation
-        7. TF-IDF Representation
-        8. Building a Spam Detector-I
-        9. Building a Spam Detector-II
-        10. Summary
+        4. Tokenisation
+        5. Bag-of-Words Representation
+        6. Stemming and Lemmatization
+        7. Final Bag-of-Words Representation
+        8. TF-IDF Representation
+        9. Building a Spam Detector-I
+        10. Building a Spam Detector-II
+        11. Summary
     3. Advanced Lexical Processing
         1. Introduction
         2. Canonicalisation
