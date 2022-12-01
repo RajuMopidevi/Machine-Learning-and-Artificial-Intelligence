@@ -140,6 +140,8 @@
                 - Bag-of-words model
                 - TF-IDF model
         2. Word Frequencies and Stop Words
+            - stopwords are lesser relevant than other words
+            - word frequency distribution :  visualising the word frequencies of a given text corpus.
         4. Tokenisation
         5. Bag-of-Words Representation
         6. Stemming and Lemmatization
