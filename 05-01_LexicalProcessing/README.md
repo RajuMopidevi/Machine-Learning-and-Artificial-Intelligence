@@ -115,9 +115,20 @@
             - `finall()` Find all the substrings where the RE matches, and return them as a list
             - `finditer()` Find all substrings where RE matches and return them as asn iterator
             - `sub()` Find all substrings where the RE matches and substitute them with the given string
-        14. Regular Expressions: Grouping
-        15. Regular Expressions: Use Cases
-        16. Summary
+            - `finditer()` and `findall()`: to extract all the dates, in that case you can use the finditer() function or the findall() function to extract the results.
+        12. Regular Expressions: Grouping
+            - **grouping**: extract sub-patterns out of a larger pattern
+            - Grouping is achieved using the parenthesis operators
+            - Grouping is a very useful technique when you want to extract substrings from an entire match
+        13. Regular Expressions: Use Cases
+            - Say you have a list of folders and filenames called 'items' and you want to extract (or read) only some specific files, say images ==> `".*\.jpg$"`
+            - trying to extract documents that start with the prefix ‘image’ and end with the extension ‘.jpg’ ==> `"image.*\.jpg$"`
+            - they can be used to extract features from text such as the ones listed below:
+                * Extracting dates
+                * Extracting emails
+                * Extracting phone numbers, and other patterns.
+                * checking if a new password meets the minimum criteria or not
+        14. Summary
     2. Basic Lexical Processing
         1. Introduction
         2. Word Frequencies and Stop Words
