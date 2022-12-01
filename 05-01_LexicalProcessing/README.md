@@ -34,7 +34,7 @@
             - Before even beginning with any text processing, you need to know what kind of encoding the text has and if required, modify it to another encoding format.
             - Encoding: ![table](https://github.com/RajuMopidevi/Machine-Learning-and-Artificial-Intelligence/blob/main/05-01_LexicalProcessing/encoding.png?raw=true)
             - The default encoding for strings in python is Unicode UTF-8.
-            - ![Open in Google Colab](https://colab.research.google.com/github/RajuMopidevi/Machine-Learning-and-Artificial-Intelligence/blob/main/05-01_LexicalProcessing/05_01_NLP_01.ipynb)
+            - [Open in Google Colab](https://colab.research.google.com/github/RajuMopidevi/Machine-Learning-and-Artificial-Intelligence/blob/main/05-01_LexicalProcessing/05_01_NLP_01.ipynb)
             - ```python
                 # create a string
                 amount = u"₹50"
@@ -45,7 +45,7 @@
                 print('Encoded to UTF-8: ', amount_encoded, '\n', 'Type of string', type(amount_encoded), '\n')
                 ```
         5. Regular expressions: Quantifiers - I
-            - ![Regular expression in google Colab](https://colab.research.google.com/github/RajuMopidevi/Machine-Learning-and-Artificial-Intelligence/blob/main/05-01_LexicalProcessing/Regular_Expressions_.ipynb)
+            - [Regular expression in google Colab](https://colab.research.google.com/github/RajuMopidevi/Machine-Learning-and-Artificial-Intelligence/blob/main/05-01_LexicalProcessing/Regular_Expressions_.ipynb)
             - A regular expression is a set of characters, or a pattern, which is used to find substrings in a given string
             - Regulars expressions are a language in itself since they have their own compilers
             - Used for feature extraction from text, string replacement and other string manipulations
@@ -130,7 +130,7 @@
                 * Extracting emails
                 * Extracting phone numbers, and other patterns.
                 * checking if a new password meets the minimum criteria or not
-             - ![Bonus excercise](https://colab.research.google.com/github/RajuMopidevi/Machine-Learning-and-Artificial-Intelligence/blob/main/05-01_LexicalProcessing/Bonus%2Bexercise%2Bwith%2Bsolution.ipynb)
+             - [Bonus excercise](https://colab.research.google.com/github/RajuMopidevi/Machine-Learning-and-Artificial-Intelligence/blob/main/05-01_LexicalProcessing/Bonus%2Bexercise%2Bwith%2Bsolution.ipynb)
     2. Basic Lexical Processing
         1. Introduction
             - Corpus is just a name to refer to textual data in NLP jargon.
