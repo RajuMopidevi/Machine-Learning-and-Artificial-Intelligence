@@ -25,6 +25,13 @@
     5. Recurrent Neural Networks
 5. Natural language processing
     1. NLP Lexical Processing
-    2. Semantic Processing I
-    3. Semantic Processing II
-    4. Syntactic Processing
+    2. Syntactic Processing
+    3. Semantic Processing I
+    4. Semantic Processing II
+6. NLP with MLOps
+    1. Intro to AWS
+    2. MLOps: Introduction
+    3. MLOps: Data Life Cycle
+    4. MLOps: Model Life Cycle
+    5. Advanced NLP
+    6. MLOps: Deployment: NLP
